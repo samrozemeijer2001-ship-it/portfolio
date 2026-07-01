@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sam Rozemeijer — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <div class="logo">
+      <div class="logo-circle"><img src="Assets/Logo_Small.png" alt=""></div>
+      <div class="logo-text">
+        <span class="logo-name">Sam Rozemeijer</span>
+        <span class="logo-sub">PORTFOLIO</span>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#" class="active">Mijn Werk</a>
+      <a href="about.html">Over Mij</a>
+      <a href="#">CV</a>
+    </nav>
+    <a href="contact.html"><button class="contact-btn">
+        <span class="icon">✉</span> Contact
+      </button> </a>
+  </div>
+</header>
+
+<main class="container">
+
+  <h1 class="hero-title">
+    Sam <span class="grad-1">Rozemeijer</span><span class="grad-2">.</span>
+  </h1>
+
+  <p class="hero-desc">
+    Een showcase van mijn beste werk variërend van opvallende animaties tot strakke interfaces en kledingontwerpen.
+  </p>
+
+  <div class="star-badge">★</div>
+
+  <!-- MINI NAVIGATIE: categorie-tabs -->
+  <nav class="category-nav">
+    <button class="category-tab active" data-category="parels">★ De Parels</button>
+    <button class="category-tab" data-category="motion">⏵ Motion Design</button>
+    <button class="category-tab" data-category="graphic">◆ Graphic Design</button>
+    <button class="category-tab" data-category="uxui">⌘ UX/UI Design</button>
+    <button class="category-tab" data-category="overig">⚿ Overig Design</button>
+  </nav>
+
+  <section class="grid">
+
+    <article class="card large" data-category="motion" data-featured="true">
+      <span class="tag dark">● MOTION DESIGN</span>
+      <div class="thumb thumb-cube"></div>
+      <div class="card-body">
+        <h3>Afstudeer project "Uppa"</h3>
+        <p>Een wel onderzocht en geïtereerd project gemaakt door moi.</p>
+        <div class="pills">
+          <span class="pill">After Effects</span>
+          <span class="pill">3D Animation</span>
+          <span class="pill">Motion Graphics</span>
+        </div>
+        <a href="project_uppa.html" class="project-button">
+            Bekijk project →
+          </a>
+      </div>
+    </article>
+
+    <article class="card" data-category="uxui" data-featured="true">
+      <span class="tag light">● UX/UI DESIGN</span>
+      <div class="thumb thumb-fintech"></div>
+      <div class="card-body">
+        <h3>FinTech App Interface</h3>
+        <p>Een gebruiksvriendelijke mobiele applicatie voor persoonlijk financieel beheer.</p>
+        <div class="pills">
+          <span class="pill">Figma</span>
+          <span class="pill">Prototyping</span>
+          <span class="pill">User Testing</span>
+        </div>
+        <a href="project_uppa.html" class="project-button">
+            Bekijk project →
+          </a>
+      </div>
+    </article>
+
+    <article class="card" data-category="graphic" data-featured="true">
+      <span class="tag light">● GRAPHIC DESIGN</span>
+      <div class="thumb thumb-typography"></div>
+      <div class="card-body">
+        <h3>Creative Typography Poster</h3>
+        <p>Opvallende poster design gericht op felle kleuren en experimentele typografie.</p>
+        <div class="pills">
+          <span class="pill">Illustrator</span>
+          <span class="pill">Print Design</span>
+        </div>
+        <a href="project_uppa.html" class="project-button">
+            Bekijk project →
+          </a>
+      </div>
+    </article>
+
+    <article class="card" data-category="overig">
+      <span class="tag light">● OVERIG DESIGN</span>
+      <div class="thumb thumb-merch"></div>
+      <div class="card-body">
+        <h3>DAY1 Merchandise Line</h3>
+        <p>Streetwear kledingontwerpen geproduceerd voor de DAY1 YouTube community.</p>
+        <div class="pills">
+          <span class="pill">Photoshop</span>
+          <span class="pill">Apparel Design</span>
+          <span class="pill">Tech Packs</span>
+        </div>
+        <a href="project_uppa.html" class="project-button">
+            Bekijk project →
+          </a>
+      </div>
+    </article>
+
+    <article class="card small" data-category="overig">
+      <span class="tag light">● OVERIG DESIGN</span>
+      <div class="thumb thumb-rugby"></div>
+      <div class="card-body">
+        <h3>Castricumse Rugby Tenues</h3>
+        <p>Compleet nieuw ontwerp voor de wedstrijdtenues en sportkleding van de club.</p>
+        <div class="pills">
+          <span class="pill">Sportswear</span>
+          <span class="pill">Illustrator</span>
+        </div>
+        <a href="project_uppa.html" class="project-button">
+            Bekijk project →
+          </a>
+      </div>
+    </article>
+
+    <article class="card small" data-category="motion">
+      <span class="tag dark">● MOTION DESIGN</span>
+      <div class="thumb thumb-youtube"></div>
+      <div class="card-body">
+        <h3>YouTube Intro Motion Graphics</h3>
+        <p>Dynamische introductie animaties gemaakt voor diverse YouTube kanalen.</p>
+        <div class="pills">
+          <span class="pill">Premiere Pro</span>
+          <span class="pill">After Effects</span>
+        </div>
+        <a href="project_uppa.html" class="project-button">
+            Bekijk project →
+          </a>
+      </div>
+    </article>
+
+  </section>
+
+  <p class="empty-state" hidden>Nog geen projecten in deze categorie.</p>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
