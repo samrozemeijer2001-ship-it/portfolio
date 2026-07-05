@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sam Rozemeijer — Over Mij</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,23 +14,37 @@
 
 <body>
 
+  <svg aria-hidden="true" style="display: none;">
+    <symbol id="thumb-icon" viewBox="0 0 24 24">
+      <path
+        d="M2 20h3V9H2v11zM22 10c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L12.83 1 6.41 7.42C6.05 7.78 5.83 8.28 5.83 8.83V19c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.08-.23.13-.47.13-.73v-2z">
+      </path>
+    </symbol>
+  </svg>
+
   <header class="navbar">
     <div class="nav-inner">
       <div class="logo">
-        <div class="logo-circle"><img src="Assets/Logo_Small.png" alt=""></div>
+        <div class="logo-circle">
+          <img src="Assets/Logo_Small.png" alt="Logo Sam Rozemeijer">
+        </div>
         <div class="logo-text">
           <span class="logo-name">Sam Rozemeijer</span>
           <span class="logo-sub">PORTFOLIO</span>
         </div>
       </div>
+
       <nav class="nav-links">
         <a href="index.html">Mijn Werk</a>
         <a href="about.html" class="active">Over Mij</a>
         <a href="Assets/CV/Sam_Rozemeijer_CV.pdf" download>CV</a>
       </nav>
-      <a href="contact.html"><button class="contact-btn">
-        <span class="icon">✉</span> Contact
-      </button> </a>
+
+      <a href="contact.html">
+        <button class="contact-btn">
+          <span class="icon">✉</span> Contact
+        </button>
+      </a>
     </div>
   </header>
 
@@ -40,19 +55,23 @@
     <div class="hero-grid">
       <div class="hero-text">
         <h1 class="hero-title">
-          Achter het <span class="grad-1">ontwerp</span> <span class="grad-2">zit</span> <span class="grad-2">een
-            verhaal.</span>
+          Ontwerp met een <span class="grad-1">eigen</span> <span class="grad-2">verhaal.</span>
         </h1>
+
         <p class="hero-desc">
-          Ik ben Sam, een creatieve allrounder met een passie voor animatie, interfacedesign en kledingontwerp.
-          Ik vertaal ideeën graag naar werk dat opvalt — of dat nu beweegt, klikt of gedragen wordt.
+          Ik ben Sam, een creatieve maker met een passie voor UX/UI, animatie en visueel ontwerp. Ik vind het tof om
+          ideeën om te zetten in sterke ontwerpen die logisch werken, prettig aanvoelen en visueel nét dat extra zetje
+          geven.
+
         </p>
+
         <div class="hero-pills">
           <span class="pill">📍 Castricum, Nederland</span>
-          <span class="pill">🎓 UX/UI en multimedia design</span>
-          <span class="pill">💼 Sta open voor werk</span>
+          <span class="pill">🎓 UX/UI &amp; multimedia design</span>
+          <span class="pill">💼 Beschikbaar voor werk</span>
         </div>
       </div>
+
       <div class="hero-photo">
         <div class="photo-frame"></div>
         <div class="star-badge">★</div>
@@ -62,63 +81,76 @@
     <section class="stats">
       <div class="stat-card">
         <span class="stat-number grad-1">8+</span>
-        <span class="stat-label">Jaar ervaring in de creatieve sector</span>
+        <span class="stat-label">Jaar creatieve ervaring</span>
       </div>
+
       <div class="stat-card">
-        <span class="stat-number grad-2">35+</span>
+        <span class="stat-number grad-2">15+</span>
         <span class="stat-label">Afgeronde projecten</span>
       </div>
+
       <div class="stat-card">
         <span class="stat-number grad-1">12</span>
         <span class="stat-label">Tevreden klanten</span>
       </div>
+
       <div class="stat-card">
         <span class="stat-number grad-2">1</span>
-        <span class="stat-label">Prijs gewonnen</span>
+        <span class="stat-label">Prijsnominatie</span>
       </div>
     </section>
 
     <section class="content-grid">
 
       <article class="card story">
-        <span class="tag light">● MIJN VERHAAL</span>
+        <span class="tag light">MIJN VERHAAL</span>
+
         <div class="card-body">
           <h3>Hoe het begon</h3>
           <p>
-            Mijn interesse in design ontstond achter een tekentafel, niet achter een scherm. Wat begon
-            als schetsen en kledingontwerpen groeide uit tot een brede creatieve praktijk: van 3D-animatie
-            tot strakke digitale interfaces. Die mix van disciplines is precies wat mijn werk onderscheidt —
-            ik denk in beweging, vorm én functie tegelijk.
+            Van jongs af aan ben ik al geïnteresseerd in visuele vormgeving. Vroeger tekende ik veel en vanuit daar
+            begon ik al snel te experimenteren met animatie. Die interesse groeide later door naar visual design en
+            uiteindelijk naar het ontwerpen van zowel digitale als fysieke producten.
           </p>
+
           <div class="pills">
             <span class="pill">Storytelling</span>
-            <span class="pill">Visuele Identiteit</span>
+            <span class="pill">Visuele identiteit</span>
             <span class="pill">Probleemoplossend</span>
           </div>
         </div>
       </article>
 
       <article class="card skills">
-        <span class="tag light">● VAARDIGHEDEN</span>
+        <span class="tag light">VAARDIGHEDEN</span>
+
         <div class="card-body">
           <h3>Wat ik doe</h3>
+
           <ul class="skill-list">
-            <li><span>UX/UI Design</span>
+            <li>
+              <span>UX/UI Design</span>
               <div class="bar">
                 <div class="fill grad-1" style="width:90%"></div>
               </div>
             </li>
-            <li><span>Motion Design</span>
+
+            <li>
+              <span>Motion Design</span>
               <div class="bar">
                 <div class="fill grad-2" style="width:85%"></div>
               </div>
             </li>
-            <li><span>Graphic Design</span>
+
+            <li>
+              <span>Graphic Design</span>
               <div class="bar">
                 <div class="fill grad-1" style="width:80%"></div>
               </div>
             </li>
-            <li><span>Apparel Design</span>
+
+            <li>
+              <span>Apparel Design</span>
               <div class="bar">
                 <div class="fill grad-2" style="width:75%"></div>
               </div>
@@ -127,48 +159,295 @@
         </div>
       </article>
 
-      <article class="card timeline">
-        <span class="tag dark">● TRAJECT</span>
-        <div class="card-body">
-          <h3>Mijn pad tot nu toe</h3>
-          <ul class="timeline-list">
-            <li>
-              <span class="dot-marker"></span>
-              <div>
-                <strong>2024 — Heden</strong>
-                <p>Freelance Creative Designer — animatie, UI en merchandise voor diverse klanten.</p>
-              </div>
-            </li>
-            <li>
-              <span class="dot-marker"></span>
-              <div>
-                <strong>2022 — 2024</strong>
-                <p>Motion &amp; Graphic Designer bij Guidion — explainer video's en merkcontent.</p>
-              </div>
-            </li>
-            <li>
-              <span class="dot-marker"></span>
-              <div>
-                <strong>2020 — 2022</strong>
-                <p>Opleiding Creative Design — basis gelegd in design, typografie en branding.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </article>
+      <article class="card tools tools-full">
+        <span class="tag light">TOOLS</span>
 
-      <article class="card tools">
-        <span class="tag light">● TOOLS</span>
         <div class="card-body">
-          <h3>Met wat ik werk</h3>
-          <div class="pills wrap">
-            <span class="pill">Figma</span>
-            <span class="pill">After Effects</span>
-            <span class="pill">Premiere Pro</span>
-            <span class="pill">Photoshop</span>
-            <span class="pill">Illustrator</span>
-            <span class="pill">Cinema 4D</span>
-            <span class="pill">Procreate</span>
+          <h3>Tools die ik gebruik</h3>
+
+          <div class="tools-inner">
+            <div class="tools-col">
+              <ul class="tool-rating-list">
+
+                <li>
+                  <span class="tool-name">Adobe After Effects</span>
+                  <span class="thumb-rating" data-rating="5" aria-label="5 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+                <li>
+                  <span class="tool-name">Figma</span>
+                  <span class="thumb-rating" data-rating="5" aria-label="5 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+                <li>
+                  <span class="tool-name">Adobe Photoshop</span>
+                  <span class="thumb-rating" data-rating="5" aria-label="5 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+                <li>
+                  <span class="tool-name">Adobe Illustrator</span>
+                  <span class="thumb-rating" data-rating="5" aria-label="5 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+                <li>
+                  <span class="tool-name">Adobe Lightroom</span>
+                  <span class="thumb-rating" data-rating="4" aria-label="4 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+                <li>
+                  <span class="tool-name">AI</span>
+                  <span class="thumb-rating" data-rating="4" aria-label="4 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+                <li>
+                  <span class="tool-name">Adobe Premiere Pro</span>
+                  <span class="thumb-rating" data-rating="3" aria-label="3 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+                <li>
+                  <span class="tool-name">Adobe Dimension 3D</span>
+                  <span class="thumb-rating" data-rating="3" aria-label="3 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+                <li>
+                  <span class="tool-name">Adobe InDesign</span>
+                  <span class="thumb-rating" data-rating="3" aria-label="3 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+                <li>
+                  <span class="tool-name">WordPress</span>
+                  <span class="thumb-rating" data-rating="3" aria-label="3 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+                <li>
+                  <span class="tool-name">Canva</span>
+                  <span class="thumb-rating" data-rating="2" aria-label="2 van 5">
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb filled" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                    <svg class="thumb empty" viewBox="0 0 24 24" aria-hidden="true">
+                      <use href="#thumb-icon"></use>
+                    </svg>
+                  </span>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="tools-col tools-extra">
+              <h4 class="tools-extra-title">Waar ik ze voor inzet</h4>
+
+              <div class="tool-group">
+                <span class="tool-group-label">Design &amp; UI</span>
+                <div class="pills wrap">
+                  <span class="pill">Figma</span>
+                  <span class="pill">Photoshop</span>
+                  <span class="pill">Illustrator</span>
+                  <span class="pill">InDesign</span>
+                </div>
+              </div>
+
+              <div class="tool-group">
+                <span class="tool-group-label">Motion &amp; Video</span>
+                <div class="pills wrap">
+                  <span class="pill">After Effects</span>
+                  <span class="pill">Premiere Pro</span>
+                </div>
+              </div>
+
+              <div class="tool-group">
+                <span class="tool-group-label">3D &amp; Rendering</span>
+                <div class="pills wrap">
+                  <span class="pill">Adobe Dimension</span>
+                </div>
+              </div>
+
+              <div class="tool-group">
+                <span class="tool-group-label">Overig</span>
+                <div class="pills wrap">
+                  <span class="pill">Lightroom</span>
+                  <span class="pill">WordPress</span>
+                  <span class="pill">Canva</span>
+                  <span class="pill">HTML</span>
+                  <span class="pill">CSS</span>
+                  <span class="pill">JavaScript</span>
+                  <span class="pill">AI</span>
+                </div>
+              </div>
+
+              <p class="tools-note">
+                Adobe Creative Cloud en Figma vormen de basis van mijn workflow — van eerste idee tot eindresultaat.
+              </p>
+            </div>
           </div>
         </div>
       </article>
@@ -176,11 +455,14 @@
     </section>
 
     <section class="cta-card">
-      <h2>Laten we iets moois maken.</h2>
-      <p>Op zoek naar een ontwerper die meedenkt? Ik hoor graag over je project.</p>
-      <button class="contact-btn large">
-        <span class="icon">✉</span> Neem contact op
-      </button>
+      <h2>Zullen we iets maken?</h2>
+      <p>Heb je een idee, project of vraag? Ik denk graag met je mee.</p>
+
+      <a href="contact.html">
+        <button class="contact-btn large">
+          <span class="icon">✉</span> Contact opnemen
+        </button>
+      </a>
     </section>
 
   </main>

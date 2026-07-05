@@ -246,32 +246,77 @@ body {
 
 .large .thumb {
   height: 220px;
-  background: radial-gradient(circle at 35% 65%, #2b2b35, #15151b 70%);
 }
 
-.thumb-cube {
-  background: radial-gradient(circle at 38% 60%, #33333d 0%, #18181f 65%);
-  position: relative;
+/* MOTION DESIGN */
+
+.thumb-guidion {
+  background-image: url("Project_schermen/Guidion/Foto_1.png");
 }
 
-.thumb-fintech {
-  background: linear-gradient(135deg, #F45D6B, #7C6FE0 50%, #56CCF2);
+.thumb-luna {
+  background-image: url("Project_schermen/Intro_luna/Foto_1.png");
 }
 
-.thumb-typography {
-  background: repeating-linear-gradient(100deg, #C0392B 0 30px, #E67E22 30px 60px, #F1C40F 60px 90px, #16A085 90px 120px, #2980B9 120px 150px);
+.thumb-character {
+  background-image: url("Project_schermen/Character/Elastiek.png");
 }
 
-.thumb-merch {
-  background: linear-gradient(120deg, #9DC4E0 0%, #54708A 50%, #1A1A1A 100%);
+
+/* UX/UI DESIGN */
+
+.thumb-uppa {
+  background-image: url("Project_schermen/Uppa/App_overzicht.png");
 }
 
-.thumb-rugby {
-  background: linear-gradient(135deg, #ECECEC, #D6D6D6);
+.thumb-ecochef {
+  background-image: url("Project_schermen/Ecochef/foto_3.png");
 }
 
-.thumb-youtube {
-  background: linear-gradient(120deg, #7C6FE0, #F45D6B 50%, #F2994A);
+.thumb-antischerm {
+  background-image: url("Project_schermen/Antischerm/Foto_2.png");
+}
+
+
+/* GRAPHIC DESIGN */
+
+.thumb-casrc {
+  background-image: url("Project_schermen/Casrc/Header.png");
+}
+
+.thumb-honing {
+  background-image: url("Project_schermen/honing/Label.jpg");
+}
+
+.thumb-garage {
+  background-image: url("Project_schermen/garage/Header.png");
+}
+
+.thumb-meervoormannen {
+  background-image: url("Project_schermen/Meervoormannen/Foto_3.png");
+}
+
+.thumb-perseus {
+  background-image: url("Project_schermen/perseus/Header.png");
+}
+
+.thumb-kortekaas {
+  background-image: url("Project_schermen/kortekaas.png");
+}
+
+.thumb-day1 {
+  background-image: url("Project_schermen/Day1/Header.png");
+}
+
+
+/* OVERIG DESIGN */
+
+.thumb-ameland26 {
+  background-image: url("Project_schermen/Ameland26/foto_2.png");
+}
+
+.thumb-ameland25 {
+  background-image: url("Project_schermen/Ameland25/Foto_2.png");
 }
 
 .card-body {
@@ -451,4 +496,57 @@ body {
   font-size: 14px;
   color: var(--text-gray);
   padding: 60px 0;
+}
+
+/* MOBILE NAVBAR */
+@media (max-width: 900px) {
+  .nav-inner {
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 14px 18px;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .nav-links {
+    order: 3;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    gap: 8px;
+    overflow-x: auto;
+    padding-top: 8px;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-links a {
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-dark);
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 9px 13px;
+  }
+
+  .nav-links a.active {
+    background: var(--text-dark);
+    color: #fff;
+  }
+
+  .contact-btn {
+    padding: 9px 14px;
+    font-size: 12px;
+  }
+
+  .contact-btn .icon {
+    display: none;
+  }
 }
